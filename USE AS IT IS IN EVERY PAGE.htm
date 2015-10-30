@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="Students' Affairs">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styling.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <title>Home Page</title>
+
+  <style>
+  /* Note: Try to remove the following lines to see the effect of CSS positioning */
+  .affix {
+      top: 0;
+      width: 100%;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
+ /* Carousel base class */
+.carousel {
+  height: 400px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 400px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 400px;
+}
+
+  </style>
+</head>
+
+
+
+
+<body>
+
+<div class="navbar navbar-inverse navbar-fixed-top navbar-style">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+       </div>
+     
+        <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav nav-justified">
+          <li><a href="#section1">Home</a></li> 
+       
+          <li class="dropdown">
+            <a  class="dropdown-toggle" data-toggle="dropdown">Rules<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+             
+                  <li><a href="Rules/76BOG_Ordinance_COC_website.pdf">Ordinance on code & Conduct of Students</a></li>
+                  <li><a href="https://shilloi.iitg.ernet.in/~hab/host_gen_rules.php">General Rules for hostel residents</a></li>
+                  <li><a href="http://shilloi.iitg.ernet.in/~sa/scholarships.html">Ordinance & Rules on scholarship</a></li>
+                  <li><a href="https://shilloi.iitg.ernet.in/~hab/host_const.php">HAB Constitution</a></li>
+                  <li><a href="https://shilloi.iitg.ernet.in/~hab/hab_proc_res.php">HAB Procedures and Resolutions</a></li>
+                  <li><a href="Rules/swimming pool rules.pdf">Swimming Pool rules</a></li>   
+                  <li><a href="Rules/Rules_Inter IIT Sports Meet_Selection_2014.pdf">Inter IIT Sports Meet</a></li>
+              <li><a href="Rules/81st BOG_SBF-Fund_Webpage.pdf">Students' Brotherhood Fund</a></li>
+                <li><a href="Rules/81st BOG_WelfareFunds_Webpage.pdf">Students' Welfare Fund (STAF, SCF, SCAF)</a></li>                              
+                
+
+             </ul>
+          </li>
+          
+          <li><a href="#section2">Scholarship</a></li>
+
+           <li class="dropdown">
+            <a href="#section3" class="dropdown-toggle" data-toggle="dropdown">SAC<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Academic</a></li>
+              <li><a href="#">Commercial</a></li>
+              <li><a href="#">Financial</a></li>
+              <li><a href="#">Interior Design</a></li>
+              <li><a href="#">Medical</a></li>
+              <li><a href="#">Religious</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="#section3" class="dropdown-toggle" data-toggle="dropdown">Boards<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="http://www.iitg.ernet.in/stud/gymkhana/home/?page_id=660">Hostel Affairs Board</a></li>
+                  <li><a href="http://www.iitg.ernet.in/stud/gymkhana/home/?page_id=661">Sports Board</a></li>
+                  <li><a href="http://www.iitg.ernet.in/stud/gymkhana/home/?page_id=659">Cultural Board</a></li>
+                  <li><a href="http://www.iitg.ernet.in/stud/gymkhana/home/?page_id=657">Technical Board</a></li>
+                  <li><a href="http://www.iitg.ernet.in/stud/gymkhana/home/?page_id=662">Students' Welfare Board</a></li>
+
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="#section3" class="dropdown-toggle" data-toggle="dropdown">Accommodation<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+            <li><a href="https://shilloi.iitg.ernet.in/~hab/index.php">Regular Accommodation</a></li>
+                  <li><a href="https://shilloi.iitg.ernet.in/~hab/index.php">Project Staff Accommodation</a></li>
+                  <li><a href="https://shilloi.iitg.ernet.in/~hab/index.php">Summer Trainees' Accommodation</a></li>
+                  <li><a href="https://shilloi.iitg.ernet.in/~hab/index.php">Temporary Accommodation</a></li>
+                  <li><a href="https://shilloi.iitg.ernet.in/~hab/index.php">Married Scholars Accommodation</a></li>
+
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="#section3" class="dropdown-toggle" data-toggle="dropdown">Hostels<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="http://intranet.iitg.ernet.in/hostels/siang/">Siang</a></li>
+                  <li><a href="http://intranet.iitg.ernet.in/hostels/dihing/">Dihing</a></li>
+                  <li><a href="http://intranet.iitg.ernet.in/hostels/dibang/">Dibang</a></li>
+                  <li><a href="http://intranet.iitg.ernet.in/hostels/kapili/">Kapili</a></li>
+                  <li><a href="http://intranet.iitg.ernet.in/hostels/kameng/">Kameng</a></li>
+                  <li><a href="http://intranet.iitg.ernet.in/hostels/manas/">Manas</a></li>
+                  <li><a href="http://intranet.iitg.ernet.in/hostels/barak/">Barak</a></li>
+                  <li><a href="http://intranet.iitg.ernet.in/hostels/umiam/">Umiam</a></li>
+                  <li><a href="http://intranet.iitg.ernet.in/hostels/brahmaputra/">Brahmaputra</a></li>
+                  <li><a href="http://intranet.iitg.ernet.in/hostels/lohit/">Lohit</a></li>
+                  <li><a href="http://intranet.iitg.ernet.in/hostels/subansiri/">Subansiri</a></li>
+                  <li><a href="http://intranet.iitg.ernet.in/hostels/dhansiri/">Dhansiri</a></li> 
+                  <li><a href="https://shilloi.iitg.ernet.in/~hab/hostel.php?hostel=Married%20Scholars">Married Scholars' Hostel</a></li>           
+            </ul>
+          </li>
+
+          <li><a href="#section4">Forms</a></li>
+          
+           <li class="dropdown">
+            <a href="#section3" class="dropdown-toggle" data-toggle="dropdown">Utilities<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Academic</a></li>
+              <li><a href="#">Commercial</a></li>
+              <li><a href="#">Financial</a></li>
+              <li><a href="#">Interior Design</a></li>
+              <li><a href="#">Medical</a></li>
+              <li><a href="#">Religious</a></li>
+            </ul>
+          </li>
+
+          <li><a href="./people.htm">People</a></li>
+      </ul>
+       </div><!--/.nav-collapse -->
+   
+</div><!--Nav -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+</html>
